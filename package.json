@@ -1,0 +1,18 @@
+{
+  "name": "railway_server",
+  "version": "1.0.0",
+  "description": "Server to get data from Google sheet and send it to app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Lovepreet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "googleapis": "^48.0.0",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EDFC</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+    <img src="sunwithtrack.jpg" alt="train"></img>
+    <h1 class="heading">EDFC CP-303</h1>
+
+    <div class="cards-list">
+  
+      <div class="card 1">
+        <div class="card_image"> <img src="rail1.jpg" /> </div>
+        <div class="card_title title-white">
+          <h4 class="vend"><%= data[0][1] %></h4>
+          <p class="trip"><%= data[0][3] %> Trips</p>
+          <p class="qty"><%= data[0][2] %> MT</p>
+        </div>
+      </div>
+      
+        <div class="card 2">
+        <div class="card_image">
+          <img src="rail4.jpg" />
+          </div>
+        <div class="card_title title-white">
+          <h4 class="vend"><%= data[1][1] %></h4>
+          <p class="trip"><%= data[1][3] %> Trips</p>
+          <p class="qty"><%= data[1][2] %> MT</p>
+        </div>
+      </div>
+      
+      <div class="card 3">
+        <div class="card_image">
+          <img src="rail3.jpg" />
+        </div>
+        <div class="card_title title-white" >
+          <h4 class="vend"><%= data[2][1] %></h4>
+          <p class="trip"><%= data[2][3] %> Trips</p>
+          <p class="qty"><%= data[2][2] %> MT</p>
+        </div>
+      </div>
+        
+        <div class="card 4">
+        <div class="card_image">
+          <img src="bg.jpg" />
+          </div>
+        <div class="card_title title-white">
+          <h4 class="vend"><%= data[3][1] %></h4>
+          <p class="trip"><%= data[3][3] %> Trips</p>
+          <p class="qty"><%= data[3][2] %> MT</p>
+        </div>
+        </div>
+      
+      </div>
+
+    <h1 class="total">Total Qty received as on <%= data[0][0] %> is <%= data[4][4] %> MT</h1>
+
+
+</body>
+</html>
+
+
